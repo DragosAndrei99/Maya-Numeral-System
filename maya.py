@@ -23,7 +23,7 @@ def base10_to_base20_maya(number):
     result_digits.append(maya_symbols[number])
     # returnam lista ca un string
     return ''.join(result_digits)
-# exemplu
-number = 16125
+# exemplu 
+number = 5450
 maya_number = base10_to_base20_maya(number)
 print(f"{number} in Maya base 20 is \n{maya_number}")
